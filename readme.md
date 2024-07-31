@@ -15,7 +15,9 @@ Need a marketing mentor who's always got your back, offering insightful advice w
 
 * **Context-Aware Conversations:**  MindfulMarketerAI remembers your past interactions, ensuring that each response is relevant and personalized.
 
-* **Easy Export for Analysis:** Download your conversations in JSONL format, making it simple to analyze and learn from your interactions.
+* **Easy Export for Analysis and Fine/Tuning:** Download your conversations in JSONL format, making it simple to use for fine-tuning an AI/LLM.
+
+* **LangSmith for Tracing (Recommended):** LangSmith is a tool for observing, debugging, dataset creation, cost analysis and improving your AI/LLM applications. 
 
 ## 🚀 Quickstart
 
