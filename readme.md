@@ -1,10 +1,8 @@
 ![blk ms mindfulgrandma 1000x500](https://github.com/user-attachments/assets/d3d1a621-7a04-48a5-a5a5-f8b3187eab7b)
 
-![10mb-groq-llama3-langchain-langsmith-sqlitedb](https://github.com/user-attachments/assets/8411f41c-5a68-4355-88f3-7f57d32ef00b)
-
-
 #  🧠 MindfulMarketerAI: Your AI Marketing Guru
 ## Powered by Groq - Llama3 - Langchain - Langsmith - Streamlit - SQlite3
+![10mb-groq-llama3-langchain-langsmith-sqlitedb](https://github.com/user-attachments/assets/8411f41c-5a68-4355-88f3-7f57d32ef00b)
 
 Need a marketing mentor who's always got your back, offering insightful advice with a touch of Seth Godin's wisdom? Look no further! MindfulMarketerAI is a cutting-edge chatbot application that combines the speed of Groq, the intelligence of Llama 3, and a dash of marketing magic to help you navigate the ever-evolving world of marketing.
 
