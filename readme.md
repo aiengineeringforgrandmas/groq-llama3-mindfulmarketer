@@ -1,15 +1,20 @@
 ![blk ms mindfulgrandma 1000x500](https://github.com/user-attachments/assets/d3d1a621-7a04-48a5-a5a5-f8b3187eab7b)
 
-#  🧠 MindfulMarketerAI: Your AI Marketing Guru, Powered by Groq and Llama 3
+#  🧠 MindfulMarketerAI: Your AI Marketing Guru
+## Powered by Groq - Llama3 - Langchain - Langsmith - Streamlit - SQlite3
 
 Need a marketing mentor who's always got your back, offering insightful advice with a touch of Seth Godin's wisdom? Look no further! MindfulMarketerAI is a cutting-edge chatbot application that combines the speed of Groq, the intelligence of Llama 3, and a dash of marketing magic to help you navigate the ever-evolving world of marketing.
 
 ## ✨ Features
 
 * **Groq-Powered Speed:** Experience lightning-fast responses thanks to Groq's high-performance compute infrastructure. 
+
 * **Llama 3 Intelligence:**  Benefit from the advanced reasoning and language generation capabilities of Llama 3, one of the most powerful large language models available.
+
 * **Choice of Llama 3 Models:** Experiment with different Llama 3 models, each optimized for specific tasks, and find the perfect fit for your marketing needs.
+
 * **Context-Aware Conversations:**  MindfulMarketerAI remembers your past interactions, ensuring that each response is relevant and personalized.
+
 * **Easy Export for Analysis:** Download your conversations in JSONL format, making it simple to analyze and learn from your interactions.
 
 ## 🚀 Quickstart
@@ -20,7 +25,7 @@ We'll be using `conda` for a smooth environment setup. If you don't have it, gra
 
 1. **Create a Conda Environment:**
    ```bash
-   conda create -n mindfulmarketer-ai python=3.9 -y  
+   conda create -n mindfulmarketer-ai python=3.11  
    conda activate mindfulmarketer-ai
    ```
 
@@ -48,8 +53,10 @@ We'll be using `conda` for a smooth environment setup. If you don't have it, gra
    Paste the following lines into your `.env` file, replacing the placeholders with your actual Groq and (optionally) LangSmith API keys:
    ```
    GROQ_API_KEY=your_groq_api_key
-   LANGCHAIN_TRACING_V2=true  # Enable if you're using LangSmith
-   LANGCHAIN_API_KEY=your_langsmith_api_key  
+   LANGCHAIN_TRACING_V2=true  # Enable=true if you're using LangSmith
+   LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
+   LANGCHAIN_API_KEY=your_langsmith_api_key 
+   LANGCHAIN_PROJECT=projectname 
    ```
 
 ### 4. Launch the App
@@ -69,8 +76,11 @@ That's it! Your MindfulMarketerAI app should now be up and running in your web b
 ## 🚀 Usage
 
 1. **Choose Your Llama 3 Model:**  On the sidebar, you'll see a dropdown menu where you can select from a variety of Llama 3 models. Each model has its strengths and weaknesses, so feel free to experiment!
+
 2. **(Optional) Craft Your System Prompt:** The system prompt sets the stage for your AI marketing guru's personality and expertise.  You can customize this prompt to influence the tone and style of the responses.
+
 3. **Start Chatting!**  Type your marketing questions, challenges, or ideas into the chat interface. MindfulMarketerAI will respond with thoughtful insights and advice, drawing upon the vast knowledge of Llama 3 and the speed of Groq.
+
 4. **Review and Export Conversations:**  Your conversation history is automatically saved. You can export it to a JSONL file for further analysis or to share your AI-powered marketing journey with others.
 
 ## 💡 Behind the Design: A Peek Under the Hood
@@ -78,8 +88,11 @@ That's it! Your MindfulMarketerAI app should now be up and running in your web b
 Let's take a closer look at some of the key design decisions that make MindfulMarketerAI tick:
 
 * **Groq for LLM Inference:** Groq's AI platform is purpose-built to deliver blazing-fast inference for large language models like Llama 3. By leveraging Groq, we ensure that you get responses in the blink of an eye, even for complex queries.
+
 * **Langchain for Workflow Orchestration:** Langchain is our secret weapon for managing the complexities of interacting with LLMs. It provides a streamlined way to handle prompts, chain together different components, and manage conversation history.
+
 * **SQLite3 for Lightweight Persistence:** We use SQLite3, a serverless database engine, to store your conversation history. This allows for easy data management without the overhead of a full-blown database server. 
+
 * **LangSmith for Observability (Optional):**  If you choose to enable LangSmith, you'll gain valuable insights into your LLM application. Track conversations, debug issues, and monitor performance all within LangSmith's intuitive interface.
 
 ## 🧠 Why This Matters: The Power of AI in Marketing
@@ -87,13 +100,13 @@ Let's take a closer look at some of the key design decisions that make MindfulMa
 In today's fast-paced marketing landscape, staying ahead of the curve is paramount. AI is rapidly transforming how we approach marketing, offering:
 
 * **Data-Driven Insights:**  AI can analyze vast amounts of data to uncover hidden patterns and trends, providing valuable insights to inform your marketing strategies.
+
 * **Personalized Experiences:**  AI enables you to create highly targeted and personalized marketing campaigns that resonate with your audience on a deeper level.
+
 * **Increased Efficiency and Productivity:**  Automate repetitive tasks, freeing up your time and resources to focus on more strategic initiatives.
 
 MindfulMarketerAI is your gateway to harnessing the power of AI in your marketing endeavors. 
 ```
-
- You're on a roll! Here's the next section, focusing on how to contribute to the project and some licensing information:
 
 ```
 ## 🙌 Contributing
@@ -101,6 +114,7 @@ MindfulMarketerAI is your gateway to harnessing the power of AI in your marketin
 We believe in the power of community! If you're passionate about AI and marketing, we'd love for you to contribute to MindfulMarketerAI. Here's how you can get involved:
 
 1. **Fork the Repository:** Click the "Fork" button at the top right of this page to create your own copy of the repository.
+
 2. **Create a New Branch:**  Make your changes in a separate branch to keep things organized.
    ```bash
    git checkout -b feature/your-feature-name
