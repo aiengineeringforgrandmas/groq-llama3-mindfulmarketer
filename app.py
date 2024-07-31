@@ -33,7 +33,7 @@ def get_timestamp():
     return datetime.utcnow().isoformat()
 
 st.title("MindfulMarketerAI")
-st.image("media/images/1000x500 black ms brain.png", use_column_width=True)
+st.image("media/images/blk ms mindfulgrandma 1000x500.png", use_column_width=True)
 st.write("Powered by Groq - Llama3 - Langchain - Langsmith - SQlite3.")
 
 # st.sidebar.image("media/images/500x500_Llama3_3Llamas_nobg.png", caption="Llama Power!", use_column_width=True)
