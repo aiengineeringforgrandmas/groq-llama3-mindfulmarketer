@@ -1,4 +1,4 @@
-https://github.com/user-attachments/assets/6fa331ed-10a0-4639-b6f6-89937cdafff0
+
 
 
 #  🧠 MindfulMarketerAI: Your AI Marketing Guru
