@@ -8,16 +8,17 @@ Need a marketing mentor who's always got your back, offering insightful advice w
 ![10mb-groq-llama3-langchain-langsmith-sqlitedb](https://github.com/user-attachments/assets/8411f41c-5a68-4355-88f3-7f57d32ef00b)
 
 * **Unmatched Speed and Performance:** Groq's hardware and software are specifically designed to accelerate LLM inference, making it the perfect platform for running demanding models like Llama 3. This translates into snappy responses and a smooth user experience.
+
+![500x500_Llama3_3Llamas_nobg](https://github.com/user-attachments/assets/125a6281-e7cb-4a9d-b90a-5beaff5e23ad)
+
 * **Open and Accessible AI:**  Llama 3's open-weight release has democratized access to cutting-edge AI capabilities. By combining Llama 3 with Groq, we're making it easier than ever for developers and marketers to build powerful AI-driven applications.
 
-# 🛠️ Why Streamlit, Langchain, Langsmith, and SQLite3?
+# 🛠️ Why Langchain, Langsmith, SQLite3 and Streamlit?
 
 MindfulMarketerAI leverages a powerful combination of tools to create an efficient, intelligent marketing assistant:
 
 ## Langchain: One Framework, Infinite Use Cases
 ![1920x738-LangChain-logo-parrot-blk-text](https://github.com/user-attachments/assets/94266e6c-e626-4226-bba0-e645c51c6a5c)
-
-https://github.com/user-attachments/assets/4e997174-05e8-43f7-a70b-24f6ea5a9fd0
 
 Langchain is a versatile framework that connects Large Language Models (LLMs) to your company's private data and APIs, enabling context-aware, reasoning applications. It offers:
 
@@ -25,8 +26,10 @@ Langchain is a versatile framework that connects Large Language Models (LLMs) to
 - 🔗 Comprehensive integrations and state-of-the-art techniques for building Retrieval-Augmented Generation (RAG) systems
 - 🚀 Rapid prototyping and production deployment capabilities
 - 🧩 Infinite composability for creating custom AI-powered workflows
+https://github.com/user-attachments/assets/4e997174-05e8-43f7-a70b-24f6ea5a9fd0
 
 ## 🔍 Langsmith: LLM Application Lifecycle Management
+![1-Langsmith-aiengineeringforgrandmas](https://github.com/user-attachments/assets/7644b380-1362-4610-8f75-347c487a974b)
 
 Langsmith is an all-in-one developer platform designed for every stage of LLM-powered application development. Key features include:
 
@@ -37,7 +40,11 @@ Langsmith is an all-in-one developer platform designed for every stage of LLM-po
 - 📊 Dataset creation for evaluations, few-shot prompting, and fine-tuning
 - 🧪 Comprehensive testing and evaluation capabilities, including AI-assisted evaluation
 
+![2-Langsmith-aiengineeringforgrandmas](https://github.com/user-attachments/assets/1f68ae84-3986-4aa2-aefc-1543526698b3)
+
 ## 💾 SQLite3: Embedded Database Power
+
+![v1-logo-sqlite](https://github.com/user-attachments/assets/f4a1b724-d810-4670-a89f-96441808a30a)
 
 SQLite3 is a software library that implements a small, fast, self-contained, full-featured SQL database engine. It offers:
 
@@ -48,6 +55,7 @@ SQLite3 is a software library that implements a small, fast, self-contained, ful
 - 🔀 Suitability for transferring rich content between systems and long-term data archival
 
 ## 🌈 Streamlit: Rapid AI Application Development
+![logo-streamlit](https://github.com/user-attachments/assets/b818f12a-7cc3-4edb-bc69-8e82fbaa4bce)
 
 Streamlit provides an intuitive framework for building interactive web applications with minimal code, allowing us to focus on delivering a seamless user experience.
 
