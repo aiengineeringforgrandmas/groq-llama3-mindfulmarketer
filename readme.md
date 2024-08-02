@@ -32,9 +32,10 @@ https://github.com/user-attachments/assets/4e997174-05e8-43f7-a70b-24f6ea5a9fd0
 
 ## 🔍 Langsmith: LLM Application Lifecycle Management
 
-![langchain_stack_dark](https://github.com/user-attachments/assets/017781c8-f08b-43e8-a02c-d0ea9eecc008)
-
 Langsmith is an all-in-one developer platform designed for every stage of LLM-powered application development. Key features include:
+
+https://github.com/user-attachments/assets/6a730a5e-3a5e-4254-8d61-1500d0a30caf
+
 
 - 🐞 Real-time debugging and performance optimization
 - 👥 Collaboration tools for sharing chain traces
