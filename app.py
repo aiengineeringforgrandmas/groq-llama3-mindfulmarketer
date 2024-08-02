@@ -32,20 +32,17 @@ db = DBUtils(db_path)
 def get_timestamp():
     return datetime.utcnow().isoformat()
 
-st.title("MindfulMarketerAI")
-st.image("media/images/blk ms mindfulgrandma 1000x500.png", use_column_width=True)
-st.write("Powered by Groq - Llama3 - Langchain - Langsmith - SQlite3.")
+# st.title("MindfulMarketerAI")
+# st.image("media/images/blk ms mindfulgrandma 1000x500.png", use_column_width=True)
+st.write("Powered by Groq - Llama3 - Langchain - Langsmith - SQlite3 - Streamlit")
+
+st.video("media/videos/v1-720p-mindful-marketer.mp4", loop=True, autoplay=True, muted=True)
 
 # st.sidebar.image("media/images/500x500_Llama3_3Llamas_nobg.png", caption="Llama Power!", use_column_width=True)
-# Add a footer
-st.sidebar.text("Groq's Ferrari Fast LPU Power")
 
+# st.sidebar.text("Groq's Ferrari Fast LPU")
 
-st.sidebar.video("media/videos/1920x1080 final grog llama 3.mp4", loop=False, autoplay=True, muted=True)
-
-st.sidebar.text("Coded with ❤️ by Gregory Kennedy")
-st.sidebar.info("Key Features: Utilizes advanced Llama 3 AI/LLMs (7 Models). Built with Streamlit, LangChain, Langsmith and SQLite3. Stores conversation history for context-aware interactions, Allows exporting conversations in JSONL format."
-)
+st.sidebar.video("media/videos/720-full-final-grog-llama3-cover.mp4", loop=False, autoplay=True, muted=True)
 
 # --- Streamlit App ---
 # st.title("MindfulMarketerAI")
@@ -68,9 +65,9 @@ if "conversation_id" not in st.session_state:
 conversation_history = db.get_conversation_history(st.session_state.conversation_id)
 
 # --- Groq Configuration ---
-st.sidebar.title('Llama3 Models')
+st.sidebar.title('Llama 3')
 model = st.sidebar.selectbox(
-    'Choose a Llama3 model',
+    'Choose a Llama 3 model',
     ['llama3-70b-8192', 'llama3-8b-8192', 'llama3-groq-70b-8192-tool-use-preview', 'llama3-groq-8b-8192-tool-use-preview',
      'llama-3.1-8b-instant', 'llama-3.1-70b-versatile', 'llama3-groq-70b-8192-tool-use-preview']
 )
@@ -191,16 +188,15 @@ if prompt := st.chat_input("Enter your questions here..."):
     conversation_history = db.get_conversation_history(st.session_state.conversation_id)
 
     # --- Save Metadata ---
-    db.save_metadata(st.session_state.conversation_id, request_metadata)
-
-st.sidebar.markdown("""
-<hr>
-<div style='text-align: center;'>
-<a href="https://aiengineeringforgrandmas.xyz" target="_blank" rel="noopener noreferrer">AI Engineering for Grandmas 🎈</a>
-</div>
-""", unsafe_allow_html=True)
+    db.save_metadata(st.session_state.conversation_id, request_metadata)   
 
 
+st.sidebar.info("Key Features: Utilizes Advanced Llama 3 AI/LLMs-7 Models to choose from.  Stores conversation history for context-aware interactions. AI observability, tracing, fine-tuning and dataset creation.  Allows exporting conversations in JSONL format."
+) 
+
+st.sidebar.link_button("Coded with ❤️ by Gregory Kennedy", "https://github.com/aiengineeringforgrandmas")
+
+# st.sidebar.text("Coded with ❤️ by Gregory Kennedy")
 # --- Export to JSONL button ---
 if st.button("Export Conversations to JSONL"):
     output_path = os.path.join(os.path.dirname(__file__), "data", "mindfulmarketer_dataset.jsonl")
