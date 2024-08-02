@@ -1,7 +1,6 @@
+https://github.com/user-attachments/assets/29fb3d95-08ae-444e-9e34-ab91a67712e7
 
-
-
-#  🧠 MindfulMarketerAI: Your AI Marketing Guru
+#  MindfulMarketerAI: Your AI Marketing Guru
 ## Powered by Groq - Llama3 - Langchain - Langsmith - SQlite3 - Streamlit 
 
 Need a marketing mentor who's always got your back, offering insightful advice with a touch of Seth Godin's wisdom? Look no further! MindfulMarketerAI is a cutting-edge chatbot application that combines the speed of Groq, the intelligence of Llama 3, and a dash of marketing magic to help you navigate the ever-evolving world of marketing.
