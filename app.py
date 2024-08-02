@@ -42,7 +42,7 @@ st.video("media/videos/v1-720p-mindful-marketer.mp4", loop=True, autoplay=True, 
 
 # st.sidebar.text("Groq's Ferrari Fast LPU")
 
-st.sidebar.video("media/videos/720-full-final-grog-llama3-cover.mp4", loop=False, autoplay=True, muted=True)
+st.sidebar.video("media/videos/480p-30sec-grog-llama3 langchain-langsmith.mp4", loop=False, autoplay=True, muted=True)
 
 # --- Streamlit App ---
 # st.title("MindfulMarketerAI")
