@@ -59,9 +59,8 @@ SQLite3 is a software library that implements a small, fast, self-contained, ful
 - 🔀 Suitability for transferring rich content between systems and long-term data archival
 
 ## 🌈 Streamlit: Rapid AI Application Development
-![logo-streamlit](https://github.com/user-attachments/assets/b818f12a-7cc3-4edb-bc69-8e82fbaa4bce)
-
 Streamlit provides an intuitive framework for building interactive web applications with minimal code, allowing us to focus on delivering a seamless user experience.
+![logo-streamlit](https://github.com/user-attachments/assets/b818f12a-7cc3-4edb-bc69-8e82fbaa4bce)
 
 # 🌟 Key Features of MindfulMarketerAI:
 
