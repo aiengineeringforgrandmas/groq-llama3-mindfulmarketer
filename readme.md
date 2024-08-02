@@ -9,7 +9,8 @@ Need a marketing mentor who's always got your back, offering insightful advice w
 
 * **Unmatched Speed and Performance:** Groq's hardware and software are specifically designed to accelerate LLM inference, making it the perfect platform for running demanding models like Llama 3. This translates into snappy responses and a smooth user experience.
 
-![500x500_Llama3_3Llamas_nobg](https://github.com/user-attachments/assets/125a6281-e7cb-4a9d-b90a-5beaff5e23ad)
+![A Blue Llama AI engineer, standing in the middle of an computer engineering lab   The Llama is very cool, wearing sunglasses and a buddhist Prayer bead necklace and is smiling](https://github.com/user-attachments/assets/f6e51cbb-ac67-4329-a9e9-59840abd3c3d)
+
 
 * **Open and Accessible AI:**  Llama 3's open-weight release has democratized access to cutting-edge AI capabilities. By combining Llama 3 with Groq, we're making it easier than ever for developers and marketers to build powerful AI-driven applications.
 
