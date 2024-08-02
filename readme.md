@@ -14,7 +14,10 @@ Need a marketing mentor who's always got your back, offering insightful advice w
 
 MindfulMarketerAI leverages a powerful combination of tools to create an efficient, intelligent marketing assistant:
 
-## 🧠 Langchain: One Framework, Infinite Use Cases
+## Langchain: One Framework, Infinite Use Cases
+![1920x738-LangChain-logo-parrot-blk-text](https://github.com/user-attachments/assets/94266e6c-e626-4226-bba0-e645c51c6a5c)
+
+https://github.com/user-attachments/assets/4e997174-05e8-43f7-a70b-24f6ea5a9fd0
 
 Langchain is a versatile framework that connects Large Language Models (LLMs) to your company's private data and APIs, enabling context-aware, reasoning applications. It offers:
 
