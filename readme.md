@@ -4,7 +4,7 @@
 #  MindfulMarketer: Your AI Marketing Guru
 Need a marketing mentor who's always got your back, offering insightful advice with a touch of Seth Godin's wisdom? Look no further! MindfulMarketerAI is a cutting-edge chatbot application that combines the speed of Groq, the intelligence of Llama 3, and a dash of marketing magic to help you navigate the ever-evolving world of marketing.
 
-## Why Groq and Llama 3?
+# Why Groq and Llama 3?
 ![10mb-groq-llama3-langchain-langsmith-sqlitedb](https://github.com/user-attachments/assets/8411f41c-5a68-4355-88f3-7f57d32ef00b)
 
 * **Unmatched Speed and Performance:** Groq's hardware and software are specifically designed to accelerate LLM inference, making it the perfect platform for running demanding models like Llama 3. This translates into snappy responses and a smooth user experience.
