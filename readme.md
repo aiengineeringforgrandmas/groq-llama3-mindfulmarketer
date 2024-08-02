@@ -1,4 +1,5 @@
-https://github.com/user-attachments/assets/29fb3d95-08ae-444e-9e34-ab91a67712e7
+
+![github-mindfulmarketing-ai](https://github.com/user-attachments/assets/025b20d7-afae-4364-9ee7-7c3b8668e9d0)
 
 #  MindfulMarketerAI: Your AI Marketing Guru
 ## Powered by Groq - Llama3 - Langchain - Langsmith - SQlite3 - Streamlit 
